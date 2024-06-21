@@ -1,0 +1,12 @@
+# @package _global_
+
+#### Model params #############################################################
+model:
+  name: gatedgnn
+  hparams:
+    input_window_size: ${window}
+    hidden_size: 64
+    enc_layers: 2
+    gnn_layers: 2
+    activation: 'silu'
+    full_graph: True

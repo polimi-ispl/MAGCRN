@@ -1,0 +1,8 @@
+# @package _global_
+
+#### Dataset params ###########################################################
+dataset:
+  name: ???
+  splitting:
+    val_len: 0.2
+    test_len: 0.1

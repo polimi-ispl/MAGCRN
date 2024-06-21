@@ -1,0 +1,54 @@
+defaults:
+  - _self_
+  - logger: tensorboard
+  - dataset: madrid19
+  - model: magcrn
+
+#### Experiment params ########################################################
+seed: 10
+hydra:
+  run:
+    dir: /nas/home/agiganti/arianet/tsl_project/logs/${model.name}/${dataset.name}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: /nas/home/agiganti/arianet/tsl_project/logs/${now:%Y-%m-%d-%H-%M-%S}
+    subdir: ${model.name}/${dataset.name}/${hydra.job.num}
+
+workers: 8
+devices: [0] # GPU [ID]
+
+#### Windowing params #########################################################
+delay: 0 # 0, 24, 48
+stride: 1
+window: 24
+horizon: 24
+
+#### Covariates #############################################################
+use_datetime: True
+use_past_cov: True
+use_fut_cov: None # Automatically set True for MAGCRN
+
+#### Training params ##########################################################
+epochs: -1 # infinite
+patience: 100
+batch_size: 1024
+scale_target: True
+
+optimizer:
+  name: AdamW
+  hparams:
+    lr: 0.01
+    weight_decay: 0
+
+lr_scheduler:
+  name: CosineAnnealingLR
+  hparams:
+    eta_min: 1e-7
+    T_max: 20
+    verbose: True
+
+#### Testing params ##########################################################
+delays: [0, 48, 24, 0]
+
+#### Tags #############################################################
+tags:
+  - '' # run-specific tb tags
