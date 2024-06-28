@@ -3,14 +3,14 @@
 [![IEEExplore](https://img.shields.io/badge/IEEExplore-blue.svg?style=flat-square)]()
 [![arXiv](https://img.shields.io/badge/arXiv-2302.04071-b31b1b.svg?style=flat-square)]()
 
-This folder contains the implementation code of the paper "Back to the Future: GNN-based NO2 Forecasting via Future Covariates" (IGARSS 2024).
+This folder contains the implementation code of the paper 
+
+_**Back to the Future**: GNN-based NO2 Forecasting via Future Covariates_ ([IGARSS 2024](https://www.2024.ieeeigarss.org/view_paper.php?PaperNum=5124))
 
 **Authors**: Antonio Giganti, Sara Mandelli, Paolo Bestagini, Umberto Giuriato, Alessandro D’Ausilio, Marco Marcon, Stefano Tubaro
 
 
-<p align="center" width="100%"><img width="60%" src="imgs/system.png" alt='The proposed MAGCRN (IGARSS 2024).'></p>
-
-<p align="center" width="100%"><img width="60%" src="imgs/cond_module.png" alt='The conditioning module (Cond) of MAGCRN (IGARSS 2024).'></p>
+<p align="center" width="100%"><img width="70%" src="imgs/system.png" alt='The proposed MAGCRN (IGARSS 2024).'></p>
 
 ---
 
@@ -68,7 +68,7 @@ After that, run the script with the command:
 python run_experiment.py 
 ```
 
-## Citing
+## Citation 
 
 ```BibTeX
 @inproceedings{giganti_magcrn_2024,
@@ -81,9 +81,15 @@ python run_experiment.py
 ---
 
 ## :busts_in_silhouette: About Us
+**Organizations**
+
 - Image and Sound Processing Lab ([ISPL](http://ispl.deib.polimi.it/))
 - Department of Electronics, Information and Bioengineering ([DEIB](https://www.deib.polimi.it/eng/home-page))
 - [Politecnico di Milano](https://www.polimi.it/en)
+- [Arianet srl](https://www.aria-net.it/it/)
+- [SUEZ]()
+
+**Team**
 
 - Antonio Giganti, [ResearchGate](https://www.researchgate.net/profile/Antonio-Giganti), [LinkedIn](https://www.linkedin.com/in/antoniogiganti/)
 - Sara Mandelli, [ResearchGate](https://www.researchgate.net/profile/Sara-Mandelli), [LinkedIn](https://www.linkedin.com/in/saramandelli/)
@@ -98,8 +104,9 @@ python run_experiment.py
 These works were supported by the Italian Ministry of University and
 Research [MUR](https://www.mur.gov.it/it) and the European Union (EU) under the [PON/REACT](https://www.ponic.gov.it/sites/PON/ReactEU) project.
 
-<img src="./logos/ispl_logo.png" width="110px" alt="logo"></img>
-<img src="./logos/polimi_logo.png" width="230px" alt="logo"></img>
-<img src="./logos/pon_logo.png" width="160px" alt="logo"></img>
-<img src="./logos/mur_logo.png" width="80px" alt="logo"></img>
-<img src="./logos/ue_logo.png" width="110px" alt="logo"></img>
+<img src="./logos/ispl_logo.png" width="110px" alt="ISPL logo"></img>
+<img src="./logos/polimi_logo.png" width="230px" alt="Polimi logo"></img>
+<img src="./logos/pon_logo.png" width="160px" alt="PON logo"></img>
+<img src="./logos/mur_logo.png" width="80px" alt="MUR logo"></img>
+<img src="./logos/ue_logo.png" width="110px" alt="UE logo"></img>
+<img src="./logos/b2tf_logo.png" width="140px" alt="Back to the Future logo"></img>
