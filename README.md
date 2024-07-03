@@ -1,7 +1,7 @@
 # :chart_with_upwards_trend: :round_pushpin: Back to the Future: GNN-based NO2 Forecasting via Future Covariates (IGARSS 2024) :round_pushpin: :chart_with_downwards_trend:
 
 [![IEEExplore](https://img.shields.io/badge/IEEExplore-blue.svg?style=flat-square)]()
-[![arXiv](https://img.shields.io/badge/arXiv-2302.04071-b31b1b.svg?style=flat-square)]()
+[![arXiv](https://img.shields.io/badge/arXiv-2404.05324-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2404.05324)
 
 This folder contains the implementation code of the paper 
 
@@ -102,7 +102,7 @@ python run_experiment.py
 
 ### Acknowledgement
 These works were supported by the Italian Ministry of University and
-Research [MUR](https://www.mur.gov.it/it) and the European Union (EU) under the [PON/REACT](https://www.ponic.gov.it/sites/PON/ReactEU) project.
+Research [MUR](https://www.mur.gov.it/it) and the European Union (EU) under the [PON/REACT](https://www.ponic.gov.it/sites/PON/ReactEU) project, in collaboration with the [ARIANET](https://www.aria-net.it/it/) company ([SUEZ](https://www.suez.com/en) Air & Climate division).
 
 <img src="./logos/ispl_logo.png" width="110px" alt="ISPL logo"></img>
 <img src="./logos/polimi_logo.png" width="230px" alt="Polimi logo"></img>
