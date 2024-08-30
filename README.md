@@ -2,6 +2,7 @@
 
 [![IEEExplore](https://img.shields.io/badge/IEEExplore-blue.svg?style=flat-square)]()
 [![arXiv](https://img.shields.io/badge/arXiv-2404.05324-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2404.05324)
+[![Slides](https://img.shields.io/badge/slides-62a9b8.svg?style=flat-square)](https://www.aria-net.it/wp-content/uploads/2024/05/Un-approccio-deep-learning-per-la-predizione-di-inquinanti-Giganti.pdf)
 
 This folder contains the implementation code of the paper 
 
