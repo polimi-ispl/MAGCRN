@@ -1,7 +1,7 @@
 # :chart_with_upwards_trend: :round_pushpin: Back to the Future: GNN-based NO2 Forecasting via Future Covariates (IGARSS 2024) :round_pushpin: :chart_with_downwards_trend:
 
 [![IEEExplore](https://img.shields.io/badge/IEEExplore-blue.svg?style=flat-square)](https://ieeexplore.ieee.org/document/10642608)
-[![arXiv](https://img.shields.io/badge/arXiv-2404.05324-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2404.05324)
+[![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2404.05324)
 [![Slides](https://img.shields.io/badge/slides-62a9b8.svg?style=flat-square)](https://www.aria-net.it/wp-content/uploads/2024/05/Un-approccio-deep-learning-per-la-predizione-di-inquinanti-Giganti.pdf)
 
 This folder contains the implementation code of the paper 
@@ -72,11 +72,15 @@ python run_experiment.py
 ## Citation 
 
 ```BibTeX
-@inproceedings{giganti_magcrn_2024,
-    author = {Giganti, Antonio and Mandelli, Sara, and Bestagini, Paolo and Giuriato, Umberto and D’Ausilio, Alessandro and Marcon, Marco and Tubaro, Stefano},
-    title = {{Back to the Future: GNN-based NO2 Forecasting via Future Covariates}},
-    year = {2024}
-}
+@inproceedings{10642608,
+  author={Giganti, Antonio and Mandelli, Sara and Bestagini, Paolo and Giuriato, Umberto and D’Ausilio, Alessandro and Marcon, Marco and Tubaro, Stefano},
+  booktitle={IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium}, 
+  title={Back to the Future: GNN-Based No2 Forecasting Via Future Covariates}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={3872-3876},
+  doi={10.1109/IGARSS53475.2024.10642608}}
 ```
 
 ---
